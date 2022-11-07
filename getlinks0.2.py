@@ -1,6 +1,7 @@
 import requests
 import getpass
 import praw
+import sys
 
 # Get credentials, developer info and user-agent.
 USERNAME = input('Enter your reddit account login: ')
