@@ -2,13 +2,9 @@ import requests
 import getpass
 import praw
 
-def recordcredentials():
-    USERNAME = input('Enter your reddit account login: ')
-    PASSWORD = getpass.getpass('Enter your reddit account login: ')
-    return USERNAME, PASSWORD
-
 # Get credentials
-(USERNAME,PASSWORD) = recordcredentials()
+USERNAME = input('Enter your reddit account login: ')
+PASSWORD = getpass.getpass('Enter your reddit account login: ')
 
 # Developer info for authorization
 CLIENT_ID = 'YOUR REDDIT APP USE SCRIPT ID (https://www.reddit.com/prefs/apps)'
